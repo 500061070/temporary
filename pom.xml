@@ -15,6 +15,10 @@
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
+      <plugin>
+          <artifactId>maven-package-plugin</artifactId>
+          <version>3.0.2</version>
+        </plugin>
     </plugins>
   </build>
 
